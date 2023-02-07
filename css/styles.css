@@ -1,0 +1,171 @@
+html {
+    background-color: rgb(245, 221, 197);
+    width: 1349px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    width: 1349px;
+    background-color: rgb(243, 209, 175);
+    -webkit-box-shadow: inset 0px 149px 119px -46px rgba(0,0,0,0.14);
+    -moz-box-shadow: inset 0px 149px 119px -46px rgba(0,0,0,0.14);
+    box-shadow: inset 0px 149px 119px -46px rgba(0,0,0,0.14);
+}
+
+#perfil {
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+h1 {    
+    padding-bottom: 5px; 
+    margin: 0;
+    font-size: 45px;
+    text-align: center;
+}
+ 
+#conjuntoPerfil {
+    text-align: center;
+} 
+
+nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(233, 195, 157);
+}   
+
+nav a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}   
+
+nav a:hover{
+    text-decoration:underline;
+} 
+
+#datos_habilidades_idiomas {
+    float: left;
+    width: 350px;
+    height: 988.59px;
+    font-size: 15px;
+    background-color: rgb(243, 209, 175);
+}
+
+.subtitulos {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista_Datos_Habilidades_Lenguajes {
+    padding-left: 28px;
+}
+
+.lista_Datos_Habilidades_Lenguajes li{
+    padding: 5px;
+}
+
+.linea_horizontal {
+    background-color: rgb(165, 56, 42);
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 290px;
+    height: 5px;
+}
+
+#educacion {
+    height: auto;
+    float: left;
+    width: 999px;
+    font-size: 15px;  
+    background-color: rgb(240, 214, 187);
+}
+
+#listaEstudios {
+    width: 900px;
+    left: 50px;
+    position: relative;
+    column-count: 2;
+    column-gap: 60px;
+    text-align: justify;
+}
+
+.estudios {
+    padding-bottom: 40px;
+}
+
+.actividad {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0; 
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;  
+}
+
+.textos {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.boton{
+    top: -35px;
+    left: 850px;
+    width: 88px;
+    height: 18px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+article button:hover{
+    text-decoration:underline;
+}
+
+.lugar {
+    margin: 0;
+    font-style: italic;
+}
+
+#experiencia {
+    float: left;
+    width: 999px;
+    height: 400px;
+    font-size: 15px;
+}
+
+#listaTrabajos {
+    width: 900px;
+    height: 360px;
+    left: 50px;
+    position: relative;
+}
+
+.trabajos {
+    padding-bottom: 22px;
+}
+
+
+
+
+
